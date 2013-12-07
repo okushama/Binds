@@ -47,7 +47,6 @@ public class BindsMod {
 	    	log("Initializing Binds Mod!");
 	    	log("#######################");
 	    	console = new Console();
-	    	MinecraftForge.EVENT_BUS.register(new EventInterceptor());
 	    	TickRegistry.registerTickHandler(new Ticker(), Side.CLIENT);
 	    	KeyBindingRegistry.registerKeyBinding(new Keybinds());
 	    	Binds.init();
