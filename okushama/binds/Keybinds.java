@@ -37,7 +37,6 @@ public class Keybinds extends KeyHandler{
 	@Override
 	public void keyDown(EnumSet<TickType> types, KeyBinding kb, boolean tickEnd, boolean isRepeat) {
 		if(kb.keyCode == openConsole.keyCode && tickEnd && mc.currentScreen == null && !isRepeat){
-			BindsMod.log("Hi");
 			Minecraft.getMinecraft().displayGuiScreen(BindsMod.console);
 		}
 	}
