@@ -23,7 +23,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class Keybinds extends KeyHandler{
 
 	public Minecraft mc = Minecraft.getMinecraft();
-	public static KeyBinding openConsole = new KeyBinding("Open Console", Keyboard.KEY_C);
+	public static KeyBinding openConsole = new KeyBinding("Show Binds Console", Keyboard.KEY_C);
 	
 	public Keybinds() {
 		super(new KeyBinding[]{openConsole}, new boolean[]{true});
